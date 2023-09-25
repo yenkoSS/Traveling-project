@@ -1,3 +1,4 @@
+
 document.querySelector('#btn-more').addEventListener('click', function() {
     document.querySelector('#section-about').scrollIntoView({behavior: 'smooth'})
 })

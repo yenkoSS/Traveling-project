@@ -2,8 +2,10 @@
 
 .section-header {
     height:100vh;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(84, 227, 131, 0.73)),
-        url('img/hero.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(88, 88, 88, 0.73)),
+        url('img/heroCompressed.jpg');
+    /* background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(84, 227, 131, 0.73)),
+        url('img/heroCompressed.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -87,4 +89,36 @@ footer .custom-link {
 .btn-green-custom:hover {
     background-color:#21ac4f;
     color:white;  
+}
+
+/*
+.more-about {
+    font-size: 2rem;
+    color:silver;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.more-about:hover {
+    text-decoration: none;
+    color: #54E383;
+}
+*/
+
+.arrow {
+	width: 70px;
+	height: 30px;
+	background: linear-gradient(45deg, #0bf, #54E383);
+	clip-path: polygon(
+		0 10px, 
+		50px 10px, 
+		50px 0, 
+		100% 50%, 
+		50px 100%, 
+		50px 20px, 
+		0 20px 
+	)};
+
+.text-custom-green {
+    color: #21ac4f!important;
 }

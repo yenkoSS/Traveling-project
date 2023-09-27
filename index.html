@@ -50,7 +50,7 @@
     </header> <!--HEADER END-->
     <!--SECTION ABOUT START-->
     <section id="section-about" class="section-padding">
-        <div id ="about-container" class="container">
+        <div class="container">
             <div class="row mb-5">
                 <h2 class="display-4">Our services</h2>
                 <hr>
@@ -233,21 +233,25 @@
                     <form>
                         <div class="form-group">
                             <label for="inputName">First name</label>
-                            <input class='form-control' type="text" placeholder="Enter your first name...">
+                            <input id="firstName" class='form-control' type="text" placeholder="Enter your first name...">
+                            <small class="text-danger"></small>
                         </div>
                         <div class="form-group">
                             <label for="inputName">Last name</label>
-                            <input class='form-control' type="text" placeholder="Enter your last name....">
+                            <input id="lastName" class='form-control' type="text" placeholder="Enter your last name....">
+                            <small class="text-danger"></small>
                         </div>
                         <div class="form-group">
                             <label for="inputName">E-mail address</label>
-                            <input class='form-control' type="text" placeholder="Enter your email address...">
+                            <input id="emailAddress" class='form-control' type="text" placeholder="Enter your email address...">
+                            <small class="text-danger"></small>
                         </div>
                         <div class="form-group">
                             <label for="inputMessage">Your message</label>
-                            <textarea name="" id="" cols="30" rows="8" class="form-control" placeholder="Enter your message..." style="resize: none;"></textarea>
+                            <textarea id="textMessage" name="" id="" cols="30" rows="8" class="form-control" placeholder="Enter your message..." style="resize: none;"></textarea>
+                            <small class="text-danger"></small>
                         </div>
-                        <div class="btn btn-green-custom">Submit</div>
+                        <div id="formSubmitBtn" class="btn btn-green-custom">Submit</div>
                     </form>
                 </div>
             </div>

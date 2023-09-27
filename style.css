@@ -90,35 +90,3 @@ footer .custom-link {
     background-color:#21ac4f;
     color:white;  
 }
-
-/*
-.more-about {
-    font-size: 2rem;
-    color:silver;
-    text-decoration: none;
-    font-weight: 100;
-}
-
-.more-about:hover {
-    text-decoration: none;
-    color: #54E383;
-}
-*/
-
-.arrow {
-	width: 70px;
-	height: 30px;
-	background: linear-gradient(45deg, #0bf, #54E383);
-	clip-path: polygon(
-		0 10px, 
-		50px 10px, 
-		50px 0, 
-		100% 50%, 
-		50px 100%, 
-		50px 20px, 
-		0 20px 
-	)};
-
-.text-custom-green {
-    color: #21ac4f!important;
-}
